@@ -7,16 +7,7 @@ import simfun
 pd.options.mode.chained_assignment = None  # default='warn'
 pd.set_option('display.max_rows', None)
 
-#syntax for specific iteration number SAVE FOR LATER
-# print(nodeframe.loc[nodeframe['Iteration'] == 0])
 
-
-
-#USE THIS TO GET THE COMPROMISE CHECK OUT INTO CSV FOR A LINE GRAPH
-# compcheck.to_csv('compcheck.csv', index=False)
-
-# nodeframe.to_csv('nodesExperiment2.csv', index=False)
-# edgeframe.to_csv('edgesExperiment2.csv', index=False)
 
 print("Welcome to AntSim! A social networking and disinformation simulator.\n")
 simExist = False
